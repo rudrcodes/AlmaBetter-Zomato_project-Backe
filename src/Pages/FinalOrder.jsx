@@ -25,8 +25,11 @@ export const FinalOrder = () => {
         const fetchFinalOrder = async () => {
             try {
                 const res = await axios.get("/finalOrder");
+                const currDate = Date().slice(0, 11);
+                const newArr = res.data.filter((el) => el.dateMade.slice(0, 11) == currDate);
+                console.log("New Arr : ", newArr)
                 console.log(res.data)
-                setFinalOrder(res.data)
+                setFinalOrder(newArr)
             } catch (error) {
                 console.log(error)
             }

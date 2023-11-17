@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Order something for yourself dawg 😋</h1>
+      <h1>🥟Order something for yourself dawg 😋</h1>
       <button className='home-btn'>
         <Link to="/">
           Home
