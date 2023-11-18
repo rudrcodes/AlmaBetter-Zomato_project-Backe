@@ -61,7 +61,7 @@ export const FinalOrder = () => {
         } catch (error) {
             console.log("Error in deleting order : ", error)
         }
-        alert('Delete Order')
+        alert('Deleted the Order, please do refresh to see the changes.')
 
         // window.location.reload();
     }
