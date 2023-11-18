@@ -51,7 +51,7 @@ export const FinalOrder = () => {
         //     console.log("Error in deleting order : ", error)
         // }
 
-        window.location.reload();
+        // window.location.reload();
     }
     const DeleteOrder = async (id) => {
         //Delete the order
@@ -63,7 +63,7 @@ export const FinalOrder = () => {
         }
         alert('Delete Order')
 
-        window.location.reload();
+        // window.location.reload();
     }
     return (
         <div>
