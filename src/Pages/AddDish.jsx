@@ -9,6 +9,7 @@ export const AddDish = () => {
     const [quantity, setQuantity] = useState(0)
     const currDate = Date().toString();
 
+    console.log(currDate)
     const handleAdd = async (title) => {
         if (quantity <= 0) return alert("Atleast 1 serving should be there")
         try {
