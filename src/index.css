@@ -44,7 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fff58b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -75,16 +75,24 @@ button:focus-visible {
 
 
 /* Cards */
-
+.butns{
+  background-color: #fff58b;
+  /* position: absolute;
+    top: 624px;
+    left: 1066px; */
+    position: relative;
+   left: 216px;;
+    top: -201px;
+}
 .dish {
-  background-color: #3d3d39;
-  background-color: #202c36;
+  background-color: #908888;
+  background-color: #abffbe;
   border-radius: 14px;
   border: 3px solid white;
-  margin: 20px;
+  margin: 50px;
   padding: 8px 15px;
-  width: 250px;
-  color:#f9f9f9
+  width: 411px;
+  color: #004770;
 }
 
 p {
@@ -132,7 +140,7 @@ p {
 
 .prevOrder span,
 .dish span {
-  color: rgb(113, 121, 121);
+  color: rgb(0, 39, 39);
 }
 
 

@@ -4,9 +4,8 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import axios from 'axios'
-import dotenv from "dotenv"
-console.log("ENV HOST LINK : ", import.meta.env.VITE_AXIOS_BASEURL)
-axios.defaults.baseURL = import.meta.env.VITE_AXIOS_BASEURL
+axios.defaults.baseURL = "http://localhost:8080/"
+console.log("ENV HOST LINK : ", axios.defaults.baseURL)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

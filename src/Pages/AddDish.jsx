@@ -45,6 +45,7 @@ export const AddDish = () => {
             {dish.title != undefined &&
                 <div key={dish._id} className='dish'>
                     <h4>{dish.title}</h4>
+                    <p></p>
                     <p>{dish.description}</p>
                     <div className='Quantity'>
 
